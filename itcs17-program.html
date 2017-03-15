@@ -14,10 +14,14 @@ td {
   vertical-align: top;
 }
 
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
+.content:nth-child(odd)>td, 
+.content:nth-child(odd)>th {
    background-color: #ffffcc;
  }
+
+.heading>td, .event>td { 
+   background-color: #ffff00;
+}
 
 </style>
 
@@ -73,9 +77,9 @@ td {
 <h3>Monday, January 9th, 2017</h3>
 <hr>
  
-<table class="program-entry table-striped">
+<table class="program-entry">
 <tbody>
-<tr>
+<tr class="heading">
   <td>
   <b>08:50-10:10&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -85,8 +89,9 @@ td {
   <td>
   <b>Chair: Christos Papadimitriou</b>
   </td>
+  <td></td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   08:50-09:10
   </td>
@@ -96,8 +101,11 @@ td {
   <td>
   Separators in region intersection graphs (invited paper)
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=rtzf7opKA-c&list=PLEtrt3GWv9EQU0WEGxhkY3YDgsgy_udpv&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:10-09:20
   </td>
@@ -107,8 +115,11 @@ td {
   <td>
   Gradient Descent Only Converges to Minimizers: Non-Isolated Critical Points and Invariant Regions
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=0GELSYGiHFA&list=PLEtrt3GWv9EQU0WEGxhkY3YDgsgy_udpv&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:20-09:30
   </td>
@@ -118,8 +129,11 @@ td {
   <td>
   Linear Coupling of Gradient and Mirror Descent
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=Gf5ltPOhW2o&list=PLEtrt3GWv9EQU0WEGxhkY3YDgsgy_udpv&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:30-09:40
   </td>
@@ -129,8 +143,11 @@ td {
   <td>
   High Dimensional Random Walks and Colorful Expansion
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=JhlmFT6ODmg&list=PLEtrt3GWv9EQU0WEGxhkY3YDgsgy_udpv&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:40-10:00
   </td>
@@ -140,10 +157,13 @@ td {
   <td>
   Real-Stability Testing
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=tSNo5E2yRjA&list=PLEtrt3GWv9EQU0WEGxhkY3YDgsgy_udpv&index=5">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>10:40-12:00&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -153,8 +173,11 @@ td {
   <td>
   <b>Chair: Alessandro Chiesa</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=UOcwtB_rFTc&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   10:40-11:00
   </td>
@@ -164,8 +187,11 @@ td {
   <td>
   Fast and Furious Byzantine Agreement
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=mqqEjzmQva8&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:00-11:10
   </td>
@@ -175,8 +201,11 @@ td {
   <td>
   Low-Complexity Cryptographic Hash Functions
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gpcQcOb6GHY&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:10-11:20
   </td>
@@ -186,8 +215,11 @@ td {
   <td>
   Hierarchical Functional Encryption
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=mMTqb59LYek&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:20-11:40
   </td>
@@ -197,8 +229,11 @@ td {
   <td>
   Inferential Privacy Guarantees for Differentially Private Mechanisms
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=f53V5MaldOk&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=5">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:40-11:50
   </td>
@@ -208,17 +243,21 @@ td {
   <td>
   Towards Human Computable Passwords
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=DwvP51n9Afo&list=PLEtrt3GWv9EQETk0fBd33kIYbgRnb8o-R&index=6">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="event">
   <td><b>12:00-13:30</b></td>
   <td><b>Lunch (on your own)</b></td>
   <td></td>
+  <td></td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>13:30-14:40&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -228,8 +267,11 @@ td {
   <td>
   <b>Chair: Aviad Rubinstein</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=qJFcylktDEA&list=PLEtrt3GWv9ERDceJc2gZj4gEJQWMHbLwk&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   13:30-13:40
   </td>
@@ -239,8 +281,11 @@ td {
   <td>
   Towards Hardness of Approximation for Polynomial Time Problems
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=yqp-_g1gAUw&index=2&list=PLEtrt3GWv9ERDceJc2gZj4gEJQWMHbLwk">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   13:40-13:50
   </td>
@@ -250,8 +295,11 @@ td {
   <td>
   Parameterized Property Testing of Functions
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=trAf4oR9C1o&index=3&list=PLEtrt3GWv9ERDceJc2gZj4gEJQWMHbLwk">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   13:50-14:10
   </td>
@@ -261,8 +309,11 @@ td {
   <td>
   The Complexity of Problems in P Given Correlated Instances
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=ZQ4IGVS2TfQ&list=PLEtrt3GWv9ERDceJc2gZj4gEJQWMHbLwk&index=5">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:10-14:20
   </td>
@@ -272,10 +323,13 @@ td {
   <td>
   Multi-Clique-Width
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=iAF_d8NqD8Y&index=4&list=PLEtrt3GWv9ERDceJc2gZj4gEJQWMHbLwk">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>15:00-16:10&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -285,8 +339,11 @@ td {
   <td>
   <b>Chair: Georgios Piliouras</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=yxNCQi9z1fQ&list=PLEtrt3GWv9EQn5FemysitGpEwRylzYyva&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:00-15:10
   </td>
@@ -296,8 +353,11 @@ td {
   <td>
   Computational Tradeoffs in Biological Neural Networks: Self-Stabilizing Winner-Take-All Networks
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=EDRmZfkKl6w&list=PLEtrt3GWv9EQn5FemysitGpEwRylzYyva&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:10-15:20
   </td>
@@ -307,8 +367,11 @@ td {
   <td>
   Mutation, Sexual Reproduction and Survival in Dynamic Environments
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=CrchM59fGbQ&list=PLEtrt3GWv9EQn5FemysitGpEwRylzYyva&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:20-15:30
   </td>
@@ -318,8 +381,11 @@ td {
   <td>
   Self-Sustaining Iterated Learning
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gA28-hIs-fo&list=PLEtrt3GWv9EQn5FemysitGpEwRylzYyva&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:30-15:50
   </td>
@@ -327,26 +393,33 @@ td {
   Damian Straszak and Nisheeth Vishnoi
   </td>
   <td>
-  IRLS and Slime Mold  (invited paper)
+  IRLS and Slime Mold (invited paper)
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=rSFOTUy-NCc&list=PLEtrt3GWv9EQn5FemysitGpEwRylzYyva&index=5">[video]</a>
   </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="event">
   <td><b>16:00-17:30</b></td>
   <td><b>Reception and Poster Session</b></td>
   <td></td>
+  <td></td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="event">
   <td><b>18:00-20:00</b></td>
   <td><b><a href="itcs17-graduating-bits.html">Graduating Bits</a></b></td>
+  <td></td>
   <td></td>
 </tr>
 
 </tbody>
 </table>
+
+<br>
 
 <h3>Tuesday, January 10th, 2017</h3>
 <hr>
@@ -354,7 +427,7 @@ td {
 <table class="program-entry table-striped">
 <tbody>
 
-<tr>
+<tr class="heading">
   <td>
   <b>08:50-10:10&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -364,8 +437,11 @@ td {
   <td>
   <b>Chair: Mary Wootters</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=Ma0tGzCzzbI&index=1&list=PLEtrt3GWv9EQbSqtYTlw7syDHTVwSZ2vR&t">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   08:50-09:10
   </td>
@@ -373,10 +449,13 @@ td {
   Mark Braverman, Sumegha Garg and Ariel Schvartzman
   </td>
   <td>
-  Network coding in undirected graphs is either very helpful or not helpful at all  (invited paper)
+  Network coding in undirected graphs is either very helpful or not helpful at all (invited paper)
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=K5V5Kl5QMG0&index=2&list=PLEtrt3GWv9EQbSqtYTlw7syDHTVwSZ2vR">[video]</a>
   </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:10-09:20
   </td>
@@ -386,8 +465,11 @@ td {
   <td>
   Compression in a Distributed Setting
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=9FMAVn1HYpo&list=PLEtrt3GWv9EQbSqtYTlw7syDHTVwSZ2vR&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:20-09:40
   </td>
@@ -397,8 +479,11 @@ td {
   <td>
   Outlaw distributions and locally decodable codes
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=Cs2-Cuet3bg&list=PLEtrt3GWv9EQbSqtYTlw7syDHTVwSZ2vR&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:40-10:00
   </td>
@@ -408,10 +493,13 @@ td {
   <td>
   Constant-Rate Interactive Coding Is Impossible, Even In Constant-Degree Networks
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=t_D9CefxIHI&index=5&list=PLEtrt3GWv9EQbSqtYTlw7syDHTVwSZ2vR">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>10:40-12:00&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -421,8 +509,11 @@ td {
   <td>
   <b>Chair: Umesh Vazirani</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=ELnBpn-Cbj4&list=PLEtrt3GWv9ET4rsN4TPGuOP8sPnVzq6zT&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   10:40-11:00
   </td>
@@ -432,8 +523,11 @@ td {
   <td>
   Parallel repetition via fortification: analytic view and the quantum case
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=YEino-ee6PI&index=2&list=PLEtrt3GWv9ET4rsN4TPGuOP8sPnVzq6zT">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:00-11:20
   </td>
@@ -443,8 +537,11 @@ td {
   <td>
   The Classification of Reversible Bit Operations
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=egU5JLbpmkA&list=PLEtrt3GWv9ET4rsN4TPGuOP8sPnVzq6zT&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:20-11:30
   </td>
@@ -454,8 +551,11 @@ td {
   <td>
   Nondeterministic quantum communication complexity: the cyclic equality game and iterated matrix multiplication
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=sIR07St2Ou8&list=PLEtrt3GWv9ET4rsN4TPGuOP8sPnVzq6zT&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:30-11:50
   </td>
@@ -465,17 +565,21 @@ td {
   <td>
   Quantum Codes from High-Dimensional Manifolds
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=3nj4lGOQxb8&list=PLEtrt3GWv9ET4rsN4TPGuOP8sPnVzq6zT&index=5">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="event">
   <td><b>12:00-14:00</b></td>
   <td><b>Lunch (on your own)</b></td>
   <td></td>
+  <td></td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>14:00-15:30&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -485,8 +589,11 @@ td {
   <td>
   <b>Chair: Aviad Rubinstein</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=i8hjqp-6rvM&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:00-14:10
   </td>
@@ -496,8 +603,11 @@ td {
   <td>
   Conditional Hardness for Sensitivity Problems
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=8fMe7Lmx0dw&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:10-14:30
   </td>
@@ -507,8 +617,11 @@ td {
   <td>
   An Improved Homomorphism Preservation Theorem from Lower Bounds in Circuit Complexity
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=RvaumOoL-n4&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:30-14:40
   </td>
@@ -518,8 +631,11 @@ td {
   <td>
   Low-Sensitivity Functions from Unambiguous Certificates
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=cAPvfMV8N0o&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:40-15:00
   </td>
@@ -529,8 +645,11 @@ td {
   <td>
   Testing k-Monotonicity
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=GIsFvrwiYgY&index=7&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:00-15:20
   </td>
@@ -540,8 +659,11 @@ td {
   <td>
   What circuit classes can be learned with non-trivial savings?
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=Fz7meER5K7Y&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=6">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
 <td>
   15:20-15:40
   </td>
@@ -551,10 +673,13 @@ td {
   <td>
   Expander Construction in VNC^1
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=RRf-GT1dytY&list=PLEtrt3GWv9EQ-kKRbh8p9-gNRtSXZlPXG&index=5">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>16:10-17:40&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -564,8 +689,9 @@ td {
   <td>
   <b>Chair: Robert Kleinberg</b>
   </td>
+  <td></td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:10-16:30
   </td>
@@ -575,8 +701,11 @@ td {
   <td>
   Finding Clearing Payments in Financial Networks with Credit Default Swaps is PPAD-hard
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=KBMjt0B9cEE&list=PLEtrt3GWv9EQvwMZsP0nn2PG11WCO5t5N&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:30-16:40
   </td>
@@ -586,8 +715,11 @@ td {
   <td>
   Testing submodularity and other properties of valuation functions
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=N2ILcromAFk&index=2&list=PLEtrt3GWv9EQvwMZsP0nn2PG11WCO5t5N">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:40-17:00
   </td>
@@ -597,8 +729,11 @@ td {
   <td>
   Algorithmic Aspects of Private Bayesian Persuasion
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gAx2CfMMvAU&index=3&list=PLEtrt3GWv9EQvwMZsP0nn2PG11WCO5t5N">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   17:00-17:10
   </td>
@@ -608,8 +743,11 @@ td {
   <td>
   Condorcet-Consistent and Approximately Strategyproof Tournament Rules
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=KS1jWObufBA&index=4&list=PLEtrt3GWv9EQvwMZsP0nn2PG11WCO5t5N">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   17:10-17:30
   </td>
@@ -617,12 +755,17 @@ td {
   Nima Anari, Shayan Oveis Gharan, Amin Saberi and Mohit Singh
   </td>
   <td>
-  Nash Social Welfare, Matrix Permanent, and Stable Polynomials  (invited paper)
+  Nash Social Welfare, Matrix Permanent, and Stable Polynomials (invited paper)
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=EoniLjTQe_4&index=5&list=PLEtrt3GWv9EQvwMZsP0nn2PG11WCO5t5N">[video]</a>
   </td>
 </tr>
 
 </tbody>
 </table>
+
+<br>
 
 <h3>Wednesday, January 11th, 2017</h3>
 <hr>
@@ -630,7 +773,7 @@ td {
 <table class="program-entry table-striped">
 <tbody>
 
-<tr>
+<tr class="heading">
   <td>
   <b>08:50-10:10&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -640,8 +783,11 @@ td {
   <td>
   <b>Chair: Alessandro Chiesa</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=1a872QK_Qcg&index=1&list=PLEtrt3GWv9EQZYGXTa5_RtOcNHEWoVnYe">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   08:50-09:10
   </td>
@@ -649,10 +795,13 @@ td {
   Irit Dinur, Prahladh Harsha, Rakesh Venkat and Henry Yuen
   </td>
   <td>
-  Multiplayer parallel repetition for expander games  (invited paper)
+  Multiplayer parallel repetition for expander games (invited paper)
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gc4C0W-LlA0&list=PLEtrt3GWv9EQZYGXTa5_RtOcNHEWoVnYe&index=2">[video]</a>
   </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:10-09:30
   </td>
@@ -662,8 +811,11 @@ td {
   <td>
   Cumulative Space in Black-White Pebbling and Resolution
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=OuFFGo6j7n4&list=PLEtrt3GWv9EQZYGXTa5_RtOcNHEWoVnYe&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:30-09:40
   </td>
@@ -673,8 +825,11 @@ td {
   <td>
   A Hierarchy Theorem for Interactive Proofs of Proximity
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=3Nldn3OTMJc&list=PLEtrt3GWv9EQZYGXTa5_RtOcNHEWoVnYe&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   09:40-10:00
   </td>
@@ -684,10 +839,13 @@ td {
   <td>
   Cube vs Cube Low Degree Test
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=dLBe47lxaTw&index=5&list=PLEtrt3GWv9EQZYGXTa5_RtOcNHEWoVnYe">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>10:40-12:00&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -697,8 +855,11 @@ td {
   <td>
   <b>Chair: Umesh Vazirani</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=-TZ_DlSFSCs&index=1&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   10:40-10:50
   </td>
@@ -708,8 +869,11 @@ td {
   <td>
   On the Power of Learning from k-Wise Queries
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=AQzIlSvTd8U&index=2&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   10:50-11:10
   </td>
@@ -719,8 +883,11 @@ td {
   <td>
   Detecting communities is hard... and counting them is even harder!
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=wT-WK0v4Q-A&index=3&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:10-11:30
   </td>
@@ -730,8 +897,11 @@ td {
   <td>
   Inherent Trade-Offs in the Fair Determination of Risk Scores
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=UUC8tMNxwV8&index=4&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:30-11:40
   </td>
@@ -741,8 +911,11 @@ td {
   <td>
   Non-Backtracking Spectrum of Degree-Corrected Stochastic Block Models
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gEn_j5BIaLk&index=5&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   11:40-11:50
   </td>
@@ -752,17 +925,21 @@ td {
   <td>
   Conditional Sparse Linear Regression
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=o7Wpr7dcmek&index=6&list=PLEtrt3GWv9ETfpgQzqusIDOm_4ZYy5iuv">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="event">
   <td><b>12:00-14:00</b></td>
   <td><b>Lunch (on your own)</b></td>
   <td></td>
+  <td></td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>14:00-15:20&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -772,8 +949,11 @@ td {
   <td>
   <b>Chair: Henry Yuen</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=eFlgMGOaRkA&list=PLEtrt3GWv9ETPa1tYEy5y0z9CGrVR9Gy8&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:00-14:20
   </td>
@@ -783,8 +963,11 @@ td {
   <td>
   Rigorous RG algorithms and area laws for low energy eigenstates in 1D
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=u0hcsD3PgcQ&index=2&list=PLEtrt3GWv9ETPa1tYEy5y0z9CGrVR9Gy8">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:20-14:40
   </td>
@@ -794,8 +977,11 @@ td {
   <td>
   The Flow of Information in Interactive Quantum Protocols: the Cost of Forgetting
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=o1SPLkJhklk&index=3&list=PLEtrt3GWv9ETPa1tYEy5y0z9CGrVR9Gy8">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:40-14:50
   </td>
@@ -805,8 +991,11 @@ td {
   <td>
   Overlapping qubits
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=zolvBWwRj9Y&index=4&list=PLEtrt3GWv9ETPa1tYEy5y0z9CGrVR9Gy8">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   14:50-15:10
   </td>
@@ -816,10 +1005,13 @@ td {
   <td>
   Quantum Recommendation Systems
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=jcmNZS53Mjk&index=5&list=PLEtrt3GWv9ETPa1tYEy5y0z9CGrVR9Gy8">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>15:20-16:30&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -829,8 +1021,11 @@ td {
   <td>
   <b>Chair: Nikhil Srivastava</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=z7j0MvUNL8U&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:20-15:30
   </td>
@@ -840,8 +1035,11 @@ td {
   <td>
   Random Walks in Polytopes and Negative Dependence
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=ET6ohXPUgSA&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:30-15:40
   </td>
@@ -849,10 +1047,13 @@ td {
   Aaron Bernstein, Tsvi Kopelowitz, Seth Pettie, Ely Porat and Clifford Stein
   </td>
   <td>
-  Simultaneously Load Balancing for Every $p$-norm, With Reassignments
+  Simultaneously Load Balancing for Every p-norm, With Reassignments
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=TT27LLHGyZQ&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=3">[video]</a>
   </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:40-15:50
   </td>
@@ -862,8 +1063,11 @@ td {
   <td>
   Approximating Approximate Distance Oracles
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=fYVeuHzgEKE&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   15:50-16:00
   </td>
@@ -873,8 +1077,11 @@ td {
   <td>
   Fast Cross-Polytope Locality-Sensitive Hashing
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=kN30aO8RCaY&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=5">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:00-16:10
   </td>
@@ -884,8 +1091,11 @@ td {
   <td>
   The Distortion of Locality Sensitive Hashing
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=gVRDNTsiPp0&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=6">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:10-16:20
   </td>
@@ -895,10 +1105,13 @@ td {
   <td>
   Constructive non-commutative rank computation is in deterministic polynomial time
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=UJ9439wXK28&list=PLEtrt3GWv9EQjKQxw4t4XqOQj173z3Vzb&index=7">[video]</a>
+  </td>
 </tr>
 
-<tr><td>&nbsp;</td><td></td><td></td></tr>
-<tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr class="heading">
   <td>
   <b>16:40-18:00&nbsp;&nbsp;&nbsp;</b>
   </td>
@@ -908,8 +1121,11 @@ td {
   <td>
   <b>Chair: Christos Papadimitriou</b>
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=0mzVCO8t4NY&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=1">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:40-16:50
   </td>
@@ -919,8 +1135,11 @@ td {
   <td>
   The Duality Gap for Two-Team Zero-Sum Games
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=i5hG2yT_n20&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=2">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   16:50-17:00
   </td>
@@ -930,8 +1149,11 @@ td {
   <td>
   Well-Supported versus Approximate Nash Equilibria: Query Complexity of Large Games
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=rmea1RoCE88&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=3">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
 17:00-17:10
 </td>
@@ -941,8 +1163,11 @@ td {
   <td>
   Metatheorems for dynamic weighted matching
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=hHNhf7gvUFc&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=4">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   17:10-17:30
   </td>
@@ -952,8 +1177,11 @@ td {
   <td>
   SOS is not obviously automatizable, even approximately
   </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=if-ljOiqTDU&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=5">[video]</a>
+  </td>
 </tr>
-<tr>
+<tr class="content">
   <td>
   17:30-17:50
   </td>
@@ -961,7 +1189,10 @@ td {
   Pavel Hubacek, Moni Naor and Eylon Yogev
   </td>
   <td>
-  The Journey from NP to TFNP Hardness  (invited paper)
+  The Journey from NP to TFNP Hardness (invited paper)
+  </td>
+  <td>
+  <a href="https://www.youtube.com/watch?v=LIrOFEMzf0c&list=PLEtrt3GWv9EQCuA0pRMIUh4KJ8v-2OLgN&index=6">[video]</a>
   </td>
 </tr>
 
