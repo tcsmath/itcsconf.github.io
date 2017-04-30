@@ -69,3 +69,13 @@ td {
     left: 100%;
     margin-top: -1px;
 }
+
+.mugshot-img {
+	position: relative;
+	width:  240px;
+	height: 240px;
+	background-position: 50% 50%;
+	background-repeat:   no-reat;
+	background-size:     cover;
+	display: inline-block;
+}
