@@ -1,3 +1,23 @@
+#logo-bar
+{
+	display: flex;
+	padding: 0 16px;
+	background-color: #FFFFFF;
+	align-items:center;
+}
+
+#itcs-logo
+{
+	width:  200px;
+	float:  left;
+	padding: 3px;
+}
+
+#itcs-title
+{
+	padding: 0px 50px;
+}
+
 body {
     background-color: #FF8C00;
     display:inline-block;
@@ -6,9 +26,9 @@ body {
     text-align:left;
 }
 
-div.col-md-11 {
-	font-size:110%;
-	background-color:#FFFFFF;
+.row .col-md-11 {
+	font-size: 110%;
+	background-color: #FFFFFF;
  }
 
 p
